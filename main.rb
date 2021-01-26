@@ -1,8 +1,8 @@
 require "selenium-webdriver"
 
 # Declare your Instagram credentials in your .bashrc or .zshrc
-username = ENV["instaFollowUser"]
-password = ENV["instaFollowPW"]
+username = ENV["INSTAFOLLOWUSER"]
+password = ENV["INSTAFOLLOWPW"]
 
 $waittime = 5 #sec
 $TMRwaittime = 90 #sec for Too Many Request (429) HTTP Response Code
@@ -46,7 +46,7 @@ def isThereBtnFor(label)
   begin
     btn = btnFor(label)
     if btn.class == Selenium::WebDriver::Error::NoSuchElementError
-      return
+      raise btn
     end
     puts(" '#{label}' button exists")
     exists = true
