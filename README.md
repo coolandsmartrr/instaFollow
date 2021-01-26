@@ -4,7 +4,13 @@ A small Ruby script to help you backup your following accounts from one Instagra
 
 ## Use Case: 
 
-Are you worried that Instagram might "randomly"[1] delete your account? You can always make a new backup account, but how will you follow all your favorite accounts again? Manually? No, save your fingerwork for something better. Just let a computer follow those accounts for you!
+Are you worried that Instagram might "randomly"[1] delete your account? 
+
+You can always make a new backup account, but how will you follow all your favorite accounts again? 
+
+Manually? No, save your fingerwork for something better. 
+
+Just let a computer follow those accounts for you!
 
 [1] This is not pure randomness as experts might argue.
 
