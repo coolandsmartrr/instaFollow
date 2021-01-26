@@ -70,16 +70,6 @@ def follow(url)
       print("Done\n")
       # Wait for follow to be accepted
       sleep(2)
-      # puts("isThereBtnFor('Follow') is: #{isThereBtnFor('Follow')}")
-      # if isThereBtnFor('Follow') == false
-      #   print("Complete\n")
-      #   return
-      # else
-      #   print("\n")
-      #   #if logic is not working, so set tmr flag as false instead of true
-      #   wait(tmr = false) 
-      #   followBtn.click
-      # end
     end
   rescue => e
     print " Error: " 
